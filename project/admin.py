@@ -1,6 +1,6 @@
 from django.contrib import admin
-from.models import Class12,Class11
+from.models import twelveclass,elevenclass
 
 # Register your models here.
-admin.site.register(Class12)
-admin.site.register(Class11)
+admin.site.register(twelveclass)
+admin.site.register(elevenclass)
