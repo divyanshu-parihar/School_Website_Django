@@ -3,7 +3,6 @@
 {%block title%}CLASS12{%endblock%}
 {%block content %}
     {%for t in files%}
-    <p>{{t.title}}</p>
     <video width="400" height="400" controls>
         <source src="{{t.video.url}}" type="video/mp4">
         <source src="{{t.video.url}}" type="video/ogg">
